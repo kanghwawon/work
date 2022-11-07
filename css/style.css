@@ -245,63 +245,6 @@ body {
 }
 
 
-/* download */
-.download {
-	position: fixed;
-	right: 1.875em;
-	bottom: 1.875em;
-	text-align: right;
-}
-.download .txt {
-	display: inline-block;
-	vertical-align: top;
-	color: #fff;
-	transition: color 0.3s;
-}
-.download span {
-	display: block;
-	line-height: 1.6;
-	font-size: 0.813em;
-	font-weight: 600;
-}
-.download strong {
-	font-size: 0.813em;
-	font-weight: 700;
-}
-.download .ico {
-	display: inline-block;
-	margin-left: 0.313em;
-	vertical-align: top;
-}
-.download .ico a {
-	display: block;
-	width: 2.500em;
-	height: 2.500em;
-	line-height: 2.500em;
-	text-align: center;
-	background-color: #fff;
-	color: #000;
-	border-radius: 50%;
-	transition: color 0.3s;
-	transition: background-color 0.3s, opacity 0.3s;
-}
-.download .ico a:hover {
-	opacity: 0.8;
-}
-.download.dark .txt {
-	color: #C9CCD5;
-}
-.download.active .txt {
-	color: #C9CCD5;
-}
-.download.dark .ico a {
-	background-color: #89B5AF;
-	color: #fff;
-}
-.download.active .ico a {
-	background-color: #fff;
-	color: #89B5AF;
-}
 
 
 /*video*/
@@ -426,15 +369,15 @@ body {
 }
 #page1 .inner .info dl dd span.label{
 	width: 4.5em;
-	font-weight: 400;
+	font-weight: 600;
 }
 #page1 .inner .info .desc{
 	float: left;
-	width: 40%;
+	width: 31%;
 }
 #page1 .inner .info .right{
 	float: right;
-	width: 55%;
+	width: 65%;
 }
 @media only screen and (max-width:1100px){
 	#page1 .inner{
@@ -685,7 +628,7 @@ body {
 	font-size: 1.250em;
 }
 #portfolio1 .overview_area .btn a{
-	margin-top: 20px;
+	margin-top: 20px; 
 	display: inline-block;
 	padding: 0 40px;
 	line-height: 50px;
@@ -693,6 +636,10 @@ body {
 	color: #fff;
 	font-size: 14px;
 	border-radius: 30px;
+	font-weight: 600;
+}
+#portfolio1 .overview_area .btn a.btn2{
+	margin-left: 50px;
 }
 #portfolio1 .overview_area .btn a:hover{
 	background-color: #FFE194;
@@ -870,6 +817,7 @@ body {
 #mo1 .inner .title p{
 	margin-top: 20px;
 	font-size: 15px;
+	line-height: 25px;
 }
 #pc1 .inner .photo{
 	position: relative;
@@ -948,7 +896,7 @@ body {
 }
 #page4 .contact .pic img{
 	max-width: 100%;
-	margin-right: 50px;
+	margin-right: 35px;
 }
 #page4 .contact .hw{
 	float: left;
